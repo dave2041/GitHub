@@ -1,0 +1,205 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)\r\n"
+    "LANGUAGE 9, 2\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\ConfigurationPackageCreator.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,17225
+ PRODUCTVERSION 1,0,0,17225
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Barcrest Group Ltd."
+            VALUE "FileVersion", "1,0,0,17225"
+            VALUE "InternalName", "Configuration Package Creator.exe"
+            VALUE "LegalCopyright", "(c) Barcrest Group Ltd.  All rights reserved."
+            VALUE "OriginalFilename", "Configuration Package Creator.exe"
+            VALUE "ProductName", "Barcrest Configuration Package Creator"
+            VALUE "ProductVersion", "1,0,0,17225"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CONFIGURATIONPACKAGECREATOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 484
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 356
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIGURATIONPACKAGECREATOR_DIALOG DIALOGEX 0, 0, 491, 363
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_APPWINDOW
+CAPTION "Configuration Package Creator"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_LOAD,12,17,235,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Load",IDC_LOAD,254,16,50,14
+    EDITTEXT        IDC_EDIT_VALUE,313,95,108,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PACKAGE,314,22,163,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_VERSION,315,52,162,14,ES_AUTOHSCROLL
+    LTEXT           "Package Name",IDC_STATIC_PACKAGE,315,11,48,8
+    LTEXT           "Version",IDC_STATIC_VERSION,316,40,24,8
+    CONTROL         "Do Not Change",IDC_CHECK_READ_ONLY_TERMINAL_USE_DEFAULT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,413,247,65,10
+    GROUPBOX        "Current Value",IDC_STATIC,305,84,176,63
+    CONTROL         "Enabled",IDC_RADIO_ENABLED,"Button",BS_AUTORADIOBUTTON | WS_GROUP,315,97,41,10
+    CONTROL         "Disabled",IDC_RADIO_DISABLED,"Button",BS_AUTORADIOBUTTON,366,97,43,10
+    CONTROL         "Do Not Change",IDC_CHECK_NO_CHANGE_VALUE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,316,132,65,10
+    LTEXT           "Min: N/A",IDC_MIN,315,110,111,8
+    LTEXT           "Max: N/A",IDC_MAX,315,118,110,8
+    PUSHBUTTON      "Exit",IDC_BUTTON_CANCEL,399,341,50,14
+    COMBOBOX        IDC_VALUE_COMBO,314,95,112,51,CBS_DROPDOWNLIST | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Apply",IDC_APPLY_BUTTON,429,95,50,14
+    LTEXT           "Currently loaded config package",IDC_STATIC_LOAD,12,9,104,8
+    CONTROL         "Do Not Change",IDC_CHECK_READ_ONLY_SERVER_USE_DEFAULT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,414,270,65,10
+    PUSHBUTTON      "Save",IDC_BUTTON_SAVE_AS,344,341,50,14
+    PUSHBUTTON      "Reset All",IDC_BUTTON_RESET_ALL,125,342,50,14
+    GROUPBOX        "Gaming Machine",IDC_STATIC,306,156,78,66
+    CONTROL         "Hidden",IDC_RADIO_HIDE_GAMINGMACHINE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,318,192,49,12
+    CONTROL         "Read-Write",IDC_RADIO_READWRITE_GAMINGMACHINE,"Button",BS_AUTORADIOBUTTON,318,168,49,12
+    CONTROL         "Read-Only",IDC_RADIO_READONLY_GAMINGMACHINE,"Button",BS_AUTORADIOBUTTON,318,180,49,12
+    GROUPBOX        "Management Portal",IDC_STATIC,308,233,78,67
+    CONTROL         "Hidden",IDC_RADIO_HIDE_MANAGEMENT,"Button",BS_AUTORADIOBUTTON | WS_GROUP,318,270,49,12
+    CONTROL         "Read-Write",IDC_RADIO_READWRITE_MANAGEMENT,"Button",BS_AUTORADIOBUTTON,318,246,49,12
+    CONTROL         "Read-Only",IDC_RADIO_READONLY_MANAGEMENT,"Button",BS_AUTORADIOBUTTON,318,258,49,12
+    CONTROL         "Shown",IDC_RADIO_UNHIDE_GAMINGMACHINE,"Button",BS_AUTORADIOBUTTON | WS_GROUP,318,204,49,12
+    CONTROL         "Shown",IDC_RADIO_UNHIDE_MANAGEMENT,"Button",BS_AUTORADIOBUTTON | WS_GROUP,318,282,49,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "&New",                        ID_FILE_NEW
+        MENUITEM "&Open",                       ID_FILE_OPEN
+        MENUITEM "&Save",                       ID_FILE_SAVE
+        MENUITEM "&Exit",                       ID_FILE_EXIT
+    END
+END
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE 9, 2
+#pragma code_page(1252)
+#include "res\ConfigurationPackageCreator.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

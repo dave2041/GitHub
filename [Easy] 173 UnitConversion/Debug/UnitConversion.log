@@ -1,0 +1,20 @@
+﻿Build started 29/07/2014 16:49:46.
+     1>Project "C:\Users\StammeD\Documents\GitHub\UnitConversionEasyChallenge\UnitConversion.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\HTMLChallenge.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"C:\Users\StammeD\Documents\GitHub\UnitConversionEasyChallenge\Debug\HTMLChallenge.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\stammed\documents\github\unitconversioneasychallenge\main.cpp(17): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\stammed\documents\github\unitconversioneasychallenge\main.cpp(17): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\stammed\documents\github\unitconversioneasychallenge\main.cpp(17): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\stammed\documents\github\unitconversioneasychallenge\main.cpp(18): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\stammed\documents\github\unitconversioneasychallenge\main.cpp(18): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\stammed\documents\github\unitconversioneasychallenge\main.cpp(18): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\stammed\documents\github\unitconversioneasychallenge\main.cpp(26): error C2075: 'strArray' : array initialization needs curly braces
+     1>c:\users\stammed\documents\github\unitconversioneasychallenge\main.cpp(29): error C2144: syntax error : 'int' should be preceded by ';'
+     1>Done Building Project "C:\Users\StammeD\Documents\GitHub\UnitConversionEasyChallenge\UnitConversion.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.84

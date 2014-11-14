@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DateFormattingEasyChallenge", "DateFormattingEasyChallenge\DateFormattingEasyChallenge.vcxproj", "{71BA761A-8FDA-47AF-81F1-520B23E0E52A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71BA761A-8FDA-47AF-81F1-520B23E0E52A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71BA761A-8FDA-47AF-81F1-520B23E0E52A}.Debug|Win32.Build.0 = Debug|Win32
+		{71BA761A-8FDA-47AF-81F1-520B23E0E52A}.Release|Win32.ActiveCfg = Release|Win32
+		{71BA761A-8FDA-47AF-81F1-520B23E0E52A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
