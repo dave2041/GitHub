@@ -13,9 +13,9 @@ string StringToMorse(string strInput)
 	{
 		for (unsigned int i = 0; i < strInput.size(); i++)
 		{
-			if (strInput[i] == ' ')
+			if (strInput[i] == ' ') //replace spaces with ' / '
 			{
-				strOutput += " /";
+				strOutput += " / ";
 			} else {
 				map<char, string>::iterator it;
 				for (it = mapMorse.begin(); it != mapMorse.end(); it++)
@@ -23,7 +23,8 @@ string StringToMorse(string strInput)
 					if (it->first == strInput[i])
 					{
 						strOutput += it->second;
-						strOutput += " ";
+						if (i != strInput.size()-1) //if not at the end
+							strOutput += " ";
 					}
 				}
 			}
@@ -38,20 +39,24 @@ string MorseToString(string strInput)
 	string strOutput = "";
 	int previousSpacePos = -1;
 	bool bAddSpace = false;
+	string strTemp = "";
 
 	if (strInput.size() > 0)
 	{
 		for (unsigned int i = 0; i < strInput.size(); i++)
 		{
-			if (strInput[i] == ' ')
+			if(((strInput[i] == ' ' || strInput[i] == '/') && i > 0) || i == strInput.size()-1)
 			{
-				if (i + 1 < strInput.size() && strInput[i] != '/')
+				if(i + 1 <= strInput.size())
 				{
-					if (strInput[i + 1] == '/')
+					if (strInput[i] == '/')
 					{
 						bAddSpace = true;
 					} else {
-						string strTemp = strInput.substr(previousSpacePos+1, i-(previousSpacePos+1));
+						if (i == strInput.size()-1) // are we at the end of the string?
+							strTemp = strInput.substr(previousSpacePos + 1, i - (previousSpacePos));
+						else
+							strTemp = strInput.substr(previousSpacePos+1, i-(previousSpacePos+1));
 						previousSpacePos = i;
 						map<char, string>::iterator it;
 						for (it = mapMorse.begin(); it != mapMorse.end(); it++)
@@ -65,10 +70,10 @@ string MorseToString(string strInput)
 						bAddSpace = false;
 						strOutput += ' ';
 					}
-				}
-			}
-		}
-	}
+				} // if not out of bounds
+			} // if space or slash
+		} //for loop
+	} // sanity check
 	else
 		return "MorseToString Failed!";
 	return strOutput;	
@@ -104,6 +109,8 @@ int main()
 	mapMorse['z'] = "--..";
 
 	string strTemp = StringToMorse("this is a test");
+	cout << strTemp.c_str() << endl;
+	strTemp = MorseToString(strTemp);
 	cout << strTemp.c_str() << endl;
 	strTemp = MorseToString(".... . .-.. .-.. --- / -.. .- .. .-.. -.-- / .--. .-. --- --. .-. .- -- -- . .-. / --. --- --- -.. / .-.. ..- -.-. -.- / --- -. / - .... . / -.-. .... .- .-.. .-.. . -. --. . ... / - --- -.. .- -.--");
 	cout << strTemp.c_str() << endl;
