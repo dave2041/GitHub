@@ -49,9 +49,19 @@ int main()
 	if (bText)
 	{
 		sort(vecText.begin(), vecText.end());
+		vector<string>::iterator it;
+		for (it = vecText.begin(); it < vecText.end(); it++)
+		{
+			cout << (*it).c_str() << endl;
+		}
 	}
 	else {
 		sort(vecNumbers.begin(), vecNumbers.end());
+		vector<int>::iterator it;
+		for (it = vecNumbers.begin(); it < vecNumbers.end(); it++)
+		{
+			cout << (*it) << endl;
+		}
 	}
 
 	system("pause");
