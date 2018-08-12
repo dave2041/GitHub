@@ -51,6 +51,11 @@ int main()
 	file << timebuf << am_pm << " :: Your name is: " << name << " Your age is: " << age << " years. Your username is: " << username << endl;
 	cout << "Your name is: " << name << " Your age is: " << age << " years. Your username is: " << username << endl;
 
+	system("cls");
+
+	for (int i = 0; i < 100; i++)
+		cout << 100 - i << endl;
+
 	system("pause");
 	return 0;
 }
