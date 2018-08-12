@@ -1,0 +1,53 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:1:70-100
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:1:1-8:12
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:1:1-8:12
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:1:11-69
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:2:5-89
+	android:required
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:2:64-87
+	android:name
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:2:19-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:3:22-65
+application
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:5:5-7:19
+service#fi.vexu.supercubeapi.SuperCubeService
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:6:9-52
+	android:name
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml:6:18-50
+uses-sdk
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\src\main\AndroidManifest.xml

@@ -1,0 +1,49 @@
+faces
+1 blue
+2 yellow
+3 orange
+4 white
+5 red
+6 green
+
+direction
+1 clockwise
+3 counterclockwise
+
+
+corners (nibbles of bytes 1-4 in order of first to last, nibbles of bytes 5-8 tell
+the corresponding corner's orientation)
+1  b y o
+2  b w o
+3  b w r
+4  b y r
+5  g y o
+6  g w o
+7  g w r
+8  g y r
+
+corner orientation ?
+1  green/blue on white-yellow axis
+2  green/blue on red-orange axis
+3  green/blue on green-blue axis
+
+
+edges (nibbles of bytes 9-14)
+1  b y
+2  b o
+3  b w
+4  b r
+
+5  y o
+6  w o
+7  w r
+8  y r
+
+9  g y
+A  g o
+B  g w
+C  g r
+
+edge orientation (12 bits from 15 to high nibble of byte 16
+1 red/orange on red-orange axis or green/blue side to green-blue axis
+0 otherwis

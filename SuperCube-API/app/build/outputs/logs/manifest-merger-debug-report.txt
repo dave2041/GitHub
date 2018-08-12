@@ -1,0 +1,136 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [:supercubeapi] C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\934709ce86bb05c8ab8588205dde5269\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\David\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7ad5cafe2031d8b248407bfa301de8b5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f4169a5c4c28bec89dcf074f191ecb42\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\aaa845e99b59dd5f66ecc7ad45ed5870\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\10d277c5e3def95fa9fbf4c29411ebab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\10e9cf2facbc9a168eda09863d7e9a68\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\d511aeb3a70c0ad88fa540ae7767346c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\486afb13338cc5a9adcb25804d98c37e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\3782df1fe6b722afcff9db7b4ebe732d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\cb1587a97ce963caacbe5c9f70fda32d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6cd34facad94a06984d5f013fd97b2d4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\07d79b17060e7d872ee01fad3ad85b21\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:3:11-41
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:5:5-89
+MERGED from [:supercubeapi] C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-13:35
+MERGED from [:supercubeapi] C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-13:35
+	android:required
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:5:64-87
+	android:name
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:5:19-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [:supercubeapi] C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-68
+MERGED from [:supercubeapi] C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:6:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:7:5-73
+	android:name
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:7:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:8:22-78
+application
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:10:5-24:19
+MERGED from [:supercubeapi] C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-19:19
+MERGED from [:supercubeapi] C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\David\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7ad5cafe2031d8b248407bfa301de8b5\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\David\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7ad5cafe2031d8b248407bfa301de8b5\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:15:9-40
+activity#fi.vexu.supercubeapi.Main
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:16:19-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:20:27-74
+activity#fi.vexu.supercubeapi.DetailsActivity
+ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:23:9-72
+	android:name
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml:23:19-70
+uses-sdk
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+MERGED from [:supercubeapi] C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:supercubeapi] C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\934709ce86bb05c8ab8588205dde5269\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\934709ce86bb05c8ab8588205dde5269\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\David\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7ad5cafe2031d8b248407bfa301de8b5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\David\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7ad5cafe2031d8b248407bfa301de8b5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f4169a5c4c28bec89dcf074f191ecb42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f4169a5c4c28bec89dcf074f191ecb42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\aaa845e99b59dd5f66ecc7ad45ed5870\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\aaa845e99b59dd5f66ecc7ad45ed5870\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\10d277c5e3def95fa9fbf4c29411ebab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\10d277c5e3def95fa9fbf4c29411ebab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\10e9cf2facbc9a168eda09863d7e9a68\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\10e9cf2facbc9a168eda09863d7e9a68\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\d511aeb3a70c0ad88fa540ae7767346c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\d511aeb3a70c0ad88fa540ae7767346c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\486afb13338cc5a9adcb25804d98c37e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\David\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\486afb13338cc5a9adcb25804d98c37e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\3782df1fe6b722afcff9db7b4ebe732d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\3782df1fe6b722afcff9db7b4ebe732d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\cb1587a97ce963caacbe5c9f70fda32d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\cb1587a97ce963caacbe5c9f70fda32d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6cd34facad94a06984d5f013fd97b2d4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6cd34facad94a06984d5f013fd97b2d4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\07d79b17060e7d872ee01fad3ad85b21\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\David\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\07d79b17060e7d872ee01fad3ad85b21\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\David\Documents\GitHub\SuperCube-API\app\src\main\AndroidManifest.xml
+service#fi.vexu.supercubeapi.SuperCubeService
+ADDED from [:supercubeapi] C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:9-73
+	android:name
+		ADDED from [:supercubeapi] C:\Users\David\Documents\GitHub\SuperCube-API\supercubeapi\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:18-70
