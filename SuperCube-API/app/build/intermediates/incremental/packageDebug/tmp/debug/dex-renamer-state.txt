@@ -1,4 +1,4 @@
-#Sat Aug 11 22:29:59 BST 2018
+#Mon Aug 13 21:02:38 BST 2018
 path.1=classes.dex
 path.0=classes.dex
 renamed.5=classes6.dex
@@ -8,11 +8,11 @@ renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
 base.5=C\:\\Users\\David\\Documents\\GitHub\\SuperCube-API\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
-base.4=C\:\\Users\\David\\Documents\\GitHub\\SuperCube-API\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\24
-base.3=C\:\\Users\\David\\Documents\\GitHub\\SuperCube-API\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\27
-base.2=C\:\\Users\\David\\Documents\\GitHub\\SuperCube-API\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\25
-base.1=C\:\\Users\\David\\Documents\\GitHub\\SuperCube-API\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\26
-base.0=C\:\\Users\\David\\Documents\\GitHub\\SuperCube-API\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\23
+base.4=C\:\\Users\\David\\Documents\\GitHub\\SuperCube-API\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\46
+base.3=C\:\\Users\\David\\Documents\\GitHub\\SuperCube-API\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\44
+base.2=C\:\\Users\\David\\Documents\\GitHub\\SuperCube-API\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\47
+base.1=C\:\\Users\\David\\Documents\\GitHub\\SuperCube-API\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\48
+base.0=C\:\\Users\\David\\Documents\\GitHub\\SuperCube-API\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\45
 path.5=classes.dex
 path.4=classes.dex
 path.3=classes.dex

@@ -3,6 +3,7 @@ package fi.vexu.supercubeapi;
 import android.bluetooth.BluetoothDevice;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -107,6 +108,7 @@ public class DetailsActivity extends AppCompatActivity {
 
                         times.add(strTime);
                         timeListView.invalidateViews();
+                        setReady.setBackgroundColor(Color.parseColor("#FFFFFF"));
                     }
                 }
             }
@@ -198,6 +200,7 @@ public class DetailsActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mUserReady = true;
+                setReady.setBackgroundColor(Color.parseColor("#00FF00"));
             }
         });
         /*resetCustom.setOnClickListener(new View.OnClickListener() { //disabled
@@ -221,8 +224,6 @@ public class DetailsActivity extends AppCompatActivity {
         super.onSaveInstanceState(state);
         state.putParcelable("superCube", mSuperCube);
     }
-
-
 
     public Runnable runnable = new Runnable() {
 
